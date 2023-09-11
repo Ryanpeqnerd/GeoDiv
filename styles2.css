@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(img/OIG.jpg);
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#score {
+  margin-top: 20px;
+}
+
+#leaderboard {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#logo{
+  width: 250px;
+}
+
+#playerName{
+  background-color: rgb(39, 39, 39);
+  border: 0px solid ;
+  color: white;
+  margin-bottom: 20px;
+  width: 390px;
+  height: 26px;
+  background: linear-gradient(#0B0D19, #0B0D19) padding-box,
+  linear-gradient(to right, #47077f, #ff914d) border-box;
+  border-bottom: 4px solid transparent;
+  margin-top: 10px;
+}
+
+#playerName::placeholder{
+  color: white;
+  
+}
+
+#question,#score{
+  color: white;
+}
+
+button{
+  background: linear-gradient(to right, #47077f, #ff914d) border-box;
+  border-radius: 0.5em;
+  border: 4px solid transparent;
+  color: white;
+  width: 320px;
+  height: 65px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  
+}
+#tc1{
+width: 30px;
+height: 30px;
+}
+
+#tc2{
+width: 30px;
+height: 30px;
+display: none;
+}
+
+#reset{
+  display: none;
+}
+
+fieldset{
+  border: 0px;
+  background-color: #0B0D19;
+  margin: 5%;
+  margin-top: 1%;
+  margin-bottom: 0px;
+  border-radius: 20px;
+
+}
